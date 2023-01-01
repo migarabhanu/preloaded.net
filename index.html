@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bhanu's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="7; url='https://migarabhanu.github.io'" />
+
+</head>
+
+<body style="background-image: url('Calm\ Darya.jpg');">
+  <!--CSS Spinner-->
+  <div class="spinner-wrapper">
+    <h1 style="color:#FF7318">HAPPY NEW YEAR !</h1>
+    <h1 style="color:#FF7318"></h1>
+    <h3 style="color:#22C5D2">Please wait. Checking your network provider. </h1>
+    <h4 style="color:#22C5D2">@migarabhanu</h4>
+    <div class="spinner"></div>
+  </div>
+  <script>
+    $(document).ready(function () {
+      //Preloader
+      preloaderFadeOutTime = 100;
+      function hidePreloader() {
+        var preloader = $('.spinner-wrapper');
+        preloader.fadeOut(preloaderFadeOutTime);
+      }
+      hidePreloader();
+    });
+  </script>
+</body>
+</html>
